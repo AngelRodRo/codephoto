@@ -8,6 +8,7 @@ const PUPPETEER_VIEWPORT_HEIGHT = 10000
 export const takeScreenshot = async (code: string, lang: string): Promise<Buffer | undefined> => {
   const id = 'code-snippet'
   const browser = await puppeteer.launch({
+    headless: 'new',
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
