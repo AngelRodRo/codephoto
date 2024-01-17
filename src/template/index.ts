@@ -26,7 +26,7 @@ export const getHeadHtmlSection = (): string => {
 
 export const getScriptsHtmlSection = (): string => {
   const jsFile = fs.readFileSync(path.resolve(__dirname, './statics/prism.js'), 'utf8')
-  const minifiedJs = minify(jsFile) // TODO: Implement a correct method to minimize js file
+  const minifiedJs = minify(jsFile)
 
   return `
     <script>
