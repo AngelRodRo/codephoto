@@ -2,7 +2,7 @@
   "name": "codeshot",
   "version": "1.0.0",
   "description": "A package to take screenshot from code files",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "postbuild": "cpy './src/template/statics/' './dist'",
