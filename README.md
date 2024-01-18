@@ -2,6 +2,9 @@
 
 Create and share images of your source code.
 
+![](https://github.com/AngelRodRo/codeshot/demo.gif)
+
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
