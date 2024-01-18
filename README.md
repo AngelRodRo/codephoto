@@ -2,7 +2,7 @@
 
 Create and share images of your source code.
 
-![](https://github.com/AngelRodRo/codeshot/demo.gif)
+![](https://github.com/AngelRodRo/codeshot/blob/main/demo.gif)
 
 
 ## Table of Contents
@@ -36,12 +36,12 @@ const screenshotBuffer = await codeshot.takeScreenshot('<p>Hello World!</p>', 'h
 CLI:
 
 ```bash
-  codeshot [input file]
+codeshot [input file]
 ```
 Example:
 
 ```bash
-  codeshot ./code-sample.html
+codeshot ./code-sample.html
 ```
 All generated images will be saved in the same directory where command was executed.
 
