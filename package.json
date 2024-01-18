@@ -1,5 +1,5 @@
 {
-  "name": "codeshot",
+  "name": "codeimage",
   "version": "1.0.0",
   "description": "A package to take screenshot from code files",
   "main": "dist/index.js",
@@ -9,8 +9,11 @@
     "test": "jest"
   },
   "bin": "dist/cli.js",
-  "keywords": [],
-  "author": "",
+  "keywords": ["image", "snippet", "code", "source"],
+  "author": "Alejandro Rodrigue",
+  "repository": {
+    "url": "https://github.com/AngelRodRo/codeimage"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.11",
