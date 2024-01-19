@@ -1,6 +1,6 @@
 {
   "name": "codephoto",
-  "version": "1.0.6-beta.1",
+  "version": "1.0.7-beta.1",
   "description": "A package to take screenshot from code files",
   "main": "dist/index.js",
   "scripts": {
