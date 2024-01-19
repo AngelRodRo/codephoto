@@ -1,5 +1,5 @@
 {
-  "name": "codeimage",
+  "name": "codephoto",
   "version": "1.0.5-beta.1",
   "description": "A package to take screenshot from code files",
   "main": "dist/index.js",
@@ -10,9 +10,9 @@
   },
   "bin": "dist/cli.js",
   "keywords": ["image", "snippet", "code", "source"],
-  "author": "Alejandro Rodrigue",
+  "author": "Alejandro Rodriguez",
   "repository": {
-    "url": "https://github.com/AngelRodRo/codeimage"
+    "url": "https://github.com/AngelRodRo/codephoto"
   },
   "license": "ISC",
   "devDependencies": {
