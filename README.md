@@ -1,8 +1,8 @@
-<h1>CodeShot 💻📸</h1>
+<h1>Codephoto 💻📸</h1>
 
 Create and share images of your source code.
 
-![](https://github.com/AngelRodRo/codeshot/blob/main/demo.gif)
+![](https://github.com/AngelRodRo/codephoto/blob/main/demo.gif)
 
 
 ## Table of Contents
@@ -15,20 +15,20 @@ Create and share images of your source code.
 ## Installation
 From NPM for use as a command line app:
 
-    npm install codeshot -g
+    npm install codephoto -g
 
 From NPM for programmatic use:
 
-    npm install codeshot
+    npm install codephoto
 
 ## Usage
 
 Programatic:
 
 ```typescript
-import codeshot from 'codeshot'
+import codephoto from 'codephoto'
 
-const screenshotBuffer = await codeshot.takeScreenshot('<p>Hello World!</p>', 'html')
+const screenshotBuffer = await codephoto.takeScreenshot('<p>Hello World!</p>', 'html')
 // Save the screenshot buffer to a file (e.g., 'screenshot.png')
 // Example using the fs module
 // fs.writeFileSync('screenshot.png', screenshotBuffer);
@@ -36,12 +36,12 @@ const screenshotBuffer = await codeshot.takeScreenshot('<p>Hello World!</p>', 'h
 CLI:
 
 ```bash
-codeshot [input file]
+codephoto [input file]
 ```
 Example:
 
 ```bash
-codeshot ./code-sample.html
+codephoto ./code-sample.html
 ```
 All generated images will be saved in the same directory where command was executed.
 
