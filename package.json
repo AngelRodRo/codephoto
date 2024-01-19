@@ -1,6 +1,6 @@
 {
   "name": "codeimage",
-  "version": "1.0.1",
+  "version": "1.0.4-beta.1",
   "description": "A package to take screenshot from code files",
   "main": "dist/index.js",
   "scripts": {
