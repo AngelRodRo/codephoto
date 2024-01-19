@@ -1,4 +1,4 @@
-<h1>Codephoto 💻📸</h1>
+<h1>CodePhoto 💻📸</h1>
 
 Create and share images of your source code.
 
