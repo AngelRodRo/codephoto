@@ -2,6 +2,8 @@
 
 Create and share images of your source code.
 
+![](https://github.com/AngelRodRo/codephoto/blob/main/codephoto-sample.gif)
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
